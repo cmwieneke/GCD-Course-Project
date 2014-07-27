@@ -7,9 +7,9 @@ Both the Training and Test data were combined.  Then only variables that dealt w
 
 Fields in the altered dataset.
 
-Subject - The number identifying an individual in the study.
+Subject (Integer) - The number identifying an individual in the study.
 
-Activity  - Describes what the subject was doing when the readings were taken. (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+Activity (Character) - Describes what the subject was doing when the readings were taken. (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 
 
 The fields below are now an Average when taken by Subject and Activity.  I have altered the field names so that the original field type is quicker to identify, mean() and std() were replaced with AVG and StdDev.
@@ -17,72 +17,72 @@ The fields below are now an Average when taken by Subject and Activity.  I have 
 For a detailed explanantion for the field directly below, please see the Feature Selection portion of the document below.
 
 
-tBodyAcc-AVG-X,
-tBodyAcc-AVG-Y,
-tBodyAcc-AVG-Z,
-tBodyAcc-StdDev-X,
-tBodyAcc-StdDev-Y,
-tBodyAcc-StdDev-Z,
-tGravityAcc-AVG-X,
-tGravityAcc-AVG-Y,
-tGravityAcc-AVG-Z,
-tGravityAcc-StdDev-X,
-tGravityAcc-StdDev-Y,
-tGravityAcc-StdDev-Z,
-tBodyAccJerk-AVG-X,
-tBodyAccJerk-AVG-Y,
-tBodyAccJerk-AVG-Z,
-tBodyAccJerk-StdDev-X,
-tBodyAccJerk-StdDev-Y,
-tBodyAccJerk-StdDev-Z,
-tBodyGyro-AVG-X,
-tBodyGyro-AVG-Y,
-tBodyGyro-AVG-Z,
-tBodyGyro-StdDev-X,
-tBodyGyro-StdDev-Y,
-tBodyGyro-StdDev-Z,
-tBodyGyroJerk-AVG-X,
-tBodyGyroJerk-AVG-Y,
-tBodyGyroJerk-AVG-Z,
-tBodyGyroJerk-StdDev-X,
-tBodyGyroJerk-StdDev-Y,
-tBodyGyroJerk-StdDev-Z,
-tBodyAccMag-AVG,
-tBodyAccMag-StdDev,
-tGravityAccMag-AVG,
-tGravityAccMag-StdDev,
-tBodyAccJerkMag-AVG,
-tBodyAccJerkMag-StdDev,
-tBodyGyroMag-AVG,
-tBodyGyroMag-StdDev,
-tBodyGyroJerkMag-AVG,
-tBodyGyroJerkMag-StdDev,
-fBodyAcc-AVG-X,
-fBodyAcc-AVG-Y,
-fBodyAcc-AVG-Z,
-fBodyAcc-StdDev-X,
-fBodyAcc-StdDev-Y,
-fBodyAcc-StdDev-Z,
-fBodyAccJerk-AVG-X,
-fBodyAccJerk-AVG-Y,
-fBodyAccJerk-AVG-Z,
-fBodyAccJerk-StdDev-X,
-fBodyAccJerk-StdDev-Y,
-fBodyAccJerk-StdDev-Z,
-fBodyGyro-AVG-X,
-fBodyGyro-AVG-Y,
-fBodyGyro-AVG-Z,
-fBodyGyro-StdDev-X,
-fBodyGyro-StdDev-Y,
-fBodyGyro-StdDev-Z,
-fBodyAccMag-AVG,
-fBodyAccMag-StdDev,
-fBodyBodyAccJerkMag-AVG,
-fBodyBodyAccJerkMag-StdDev,
-fBodyBodyGyroMag-AVG,
-fBodyBodyGyroMag-StdDev,
-fBodyBodyGyroJerkMag-AVG,
-fBodyBodyGyroJerkMag-StdDev,
+tBodyAcc-AVG-X (Numeric),
+tBodyAcc-AVG-Y (Numeric),
+tBodyAcc-AVG-Z (Numeric),
+tBodyAcc-StdDev-X (Numeric),
+tBodyAcc-StdDev-Y (Numeric),
+tBodyAcc-StdDev-Z (Numeric),
+tGravityAcc-AVG-X (Numeric),
+tGravityAcc-AVG-Y (Numeric),
+tGravityAcc-AVG-Z (Numeric),
+tGravityAcc-StdDev-X (Numeric),
+tGravityAcc-StdDev-Y (Numeric),
+tGravityAcc-StdDev-Z (Numeric),
+tBodyAccJerk-AVG-X (Numeric),
+tBodyAccJerk-AVG-Y (Numeric),
+tBodyAccJerk-AVG-Z (Numeric),
+tBodyAccJerk-StdDev-X (Numeric),
+tBodyAccJerk-StdDev-Y (Numeric),
+tBodyAccJerk-StdDev-Z (Numeric),
+tBodyGyro-AVG-X (Numeric),
+tBodyGyro-AVG-Y (Numeric),
+tBodyGyro-AVG-Z (Numeric),
+tBodyGyro-StdDev-X (Numeric),
+tBodyGyro-StdDev-Y (Numeric),
+tBodyGyro-StdDev-Z (Numeric),
+tBodyGyroJerk-AVG-X (Numeric),
+tBodyGyroJerk-AVG-Y (Numeric),
+tBodyGyroJerk-AVG-Z (Numeric),
+tBodyGyroJerk-StdDev-X (Numeric),
+tBodyGyroJerk-StdDev-Y (Numeric),
+tBodyGyroJerk-StdDev-Z (Numeric),
+tBodyAccMag-AVG (Numeric),
+tBodyAccMag-StdDev (Numeric),
+tGravityAccMag-AVG (Numeric),
+tGravityAccMag-StdDev (Numeric),
+tBodyAccJerkMag-AVG (Numeric),
+tBodyAccJerkMag-StdDev (Numeric),
+tBodyGyroMag-AVG (Numeric),
+tBodyGyroMag-StdDev (Numeric),
+tBodyGyroJerkMag-AVG (Numeric),
+tBodyGyroJerkMag-StdDev (Numeric),
+fBodyAcc-AVG-X (Numeric),
+fBodyAcc-AVG-Y (Numeric),
+fBodyAcc-AVG-Z (Numeric),
+fBodyAcc-StdDev-X (Numeric),
+fBodyAcc-StdDev-Y (Numeric),
+fBodyAcc-StdDev-Z (Numeric),
+fBodyAccJerk-AVG-X (Numeric),
+fBodyAccJerk-AVG-Y (Numeric),
+fBodyAccJerk-AVG-Z (Numeric),
+fBodyAccJerk-StdDev-X (Numeric),
+fBodyAccJerk-StdDev-Y (Numeric),
+fBodyAccJerk-StdDev-Z (Numeric),
+fBodyGyro-AVG-X (Numeric),
+fBodyGyro-AVG-Y (Numeric),
+fBodyGyro-AVG-Z (Numeric),
+fBodyGyro-StdDev-X (Numeric),
+fBodyGyro-StdDev-Y (Numeric),
+fBodyGyro-StdDev-Z (Numeric),
+fBodyAccMag-AVG (Numeric),
+fBodyAccMag-StdDev (Numeric),
+fBodyBodyAccJerkMag-AVG (Numeric),
+fBodyBodyAccJerkMag-StdDev (Numeric),
+fBodyBodyGyroMag-AVG (Numeric),
+fBodyBodyGyroMag-StdDev (Numeric),
+fBodyBodyGyroJerkMag-AVG (Numeric),
+fBodyBodyGyroJerkMag-StdDev (Numeric),
 
 
 
@@ -118,33 +118,5 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
-
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
-
-The complete list of variables of each feature vector is available in 'features.txt'
 
