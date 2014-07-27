@@ -26,6 +26,9 @@ Activity (Character) - Describes what the subject was doing when the readings we
 
 ************
 
+#####All the fields below are now Averages of their original content when taken by Subject and Activity.  The description above is still what was recorded.
+
+###I cannot define these fields better than those who conducted the study.
 
 tBodyAcc-AVG-X (Numeric)
 
