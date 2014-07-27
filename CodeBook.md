@@ -1,3 +1,4 @@
+
 The original data has been signifigantly altered to create this dataset.
 
 Both the Training and Test data were combined.  Then only variables that dealt with mean or standard deviation were kept.  Then those variables were renamed so that mean and standard deviation fields were more quickly recognized.  The remaining fields were then averaged by Subject and Activity creating this dataset.
@@ -7,12 +8,13 @@ Both the Training and Test data were combined.  Then only variables that dealt w
 Fields in the altered dataset.
 
 Subject - The number identifying an individual in the study.
+
 Activity  - Describes what the subject was doing when the readings were taken. (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
 
 
-The field below are now an Average when taken by Subject and Activity.  I have altered the field names so that the original field type is quicker to identify, mean() and std() were replaced with AVG and StdDev.
+The fields below are now an Average when taken by Subject and Activity.  I have altered the field names so that the original field type is quicker to identify, mean() and std() were replaced with AVG and StdDev.
 
-For further information on these please see the original information below.
+For a detailed explanantion for the field directly below, please see the Feature Selection portion of the document below.
 
 
 tBodyAcc-AVG-X,
