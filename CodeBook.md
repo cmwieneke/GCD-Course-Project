@@ -26,69 +26,130 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 ************
-tBodyAcc-AVG-X (Numeric),
-tBodyAcc-AVG-Y (Numeric),
-tBodyAcc-AVG-Z (Numeric),
-tBodyAcc-StdDev-X (Numeric),
-tBodyAcc-StdDev-Y (Numeric),
-tBodyAcc-StdDev-Z (Numeric),
-tGravityAcc-AVG-X (Numeric),
-tGravityAcc-AVG-Y (Numeric),
-tGravityAcc-AVG-Z (Numeric),
-tGravityAcc-StdDev-X (Numeric),
-tGravityAcc-StdDev-Y (Numeric),
-tGravityAcc-StdDev-Z (Numeric),
-tBodyAccJerk-AVG-X (Numeric),
-tBodyAccJerk-AVG-Y (Numeric),
-tBodyAccJerk-AVG-Z (Numeric),
-tBodyAccJerk-StdDev-X (Numeric),
-tBodyAccJerk-StdDev-Y (Numeric),
-tBodyAccJerk-StdDev-Z (Numeric),
-tBodyGyro-AVG-X (Numeric),
-tBodyGyro-AVG-Y (Numeric),
-tBodyGyro-AVG-Z (Numeric),
-tBodyGyro-StdDev-X (Numeric),
-tBodyGyro-StdDev-Y (Numeric),
-tBodyGyro-StdDev-Z (Numeric),
-tBodyGyroJerk-AVG-X (Numeric),
-tBodyGyroJerk-AVG-Y (Numeric),
-tBodyGyroJerk-AVG-Z (Numeric),
-tBodyGyroJerk-StdDev-X (Numeric),
-tBodyGyroJerk-StdDev-Y (Numeric),
-tBodyGyroJerk-StdDev-Z (Numeric),
-tBodyAccMag-AVG (Numeric),
-tBodyAccMag-StdDev (Numeric),
-tGravityAccMag-AVG (Numeric),
-tGravityAccMag-StdDev (Numeric),
-tBodyAccJerkMag-AVG (Numeric),
-tBodyAccJerkMag-StdDev (Numeric),
-tBodyGyroMag-AVG (Numeric),
-tBodyGyroMag-StdDev (Numeric),
-tBodyGyroJerkMag-AVG (Numeric),
-tBodyGyroJerkMag-StdDev (Numeric),
-fBodyAcc-AVG-X (Numeric),
-fBodyAcc-AVG-Y (Numeric),
-fBodyAcc-AVG-Z (Numeric),
-fBodyAcc-StdDev-X (Numeric),
-fBodyAcc-StdDev-Y (Numeric),
-fBodyAcc-StdDev-Z (Numeric),
-fBodyAccJerk-AVG-X (Numeric),
-fBodyAccJerk-AVG-Y (Numeric),
-fBodyAccJerk-AVG-Z (Numeric),
-fBodyAccJerk-StdDev-X (Numeric),
-fBodyAccJerk-StdDev-Y (Numeric),
-fBodyAccJerk-StdDev-Z (Numeric),
-fBodyGyro-AVG-X (Numeric),
-fBodyGyro-AVG-Y (Numeric),
-fBodyGyro-AVG-Z (Numeric),
-fBodyGyro-StdDev-X (Numeric),
-fBodyGyro-StdDev-Y (Numeric),
-fBodyGyro-StdDev-Z (Numeric),
-fBodyAccMag-AVG (Numeric),
-fBodyAccMag-StdDev (Numeric),
-fBodyBodyAccJerkMag-AVG (Numeric),
-fBodyBodyAccJerkMag-StdDev (Numeric),
-fBodyBodyGyroMag-AVG (Numeric),
+tBodyAcc-AVG-X (Numeric)
+
+tBodyAcc-AVG-Y (Numeric)
+
+tBodyAcc-AVG-Z (Numeric)
+
+tBodyAcc-StdDev-X (Numeric)
+
+tBodyAcc-StdDev-Y (Numeric)
+
+tBodyAcc-StdDev-Z (Numeric)
+
+tGravityAcc-AVG-X (Numeric)
+
+tGravityAcc-AVG-Y (Numeric)
+
+tGravityAcc-AVG-Z (Numeric)
+
+tGravityAcc-StdDev-X (Numeric)
+
+tGravityAcc-StdDev-Y (Numeric)
+
+tGravityAcc-StdDev-Z (Numeric)
+
+tBodyAccJerk-AVG-X (Numeric)
+
+tBodyAccJerk-AVG-Y (Numeric)
+
+tBodyAccJerk-AVG-Z (Numeric)
+
+tBodyAccJerk-StdDev-X (Numeric)
+
+tBodyAccJerk-StdDev-Z (Numeric)
+
+tBodyGyro-AVG-X (Numeric)
+
+tBodyGyro-AVG-Y (Numeric)
+
+tBodyGyro-AVG-Z (Numeric)
+
+tBodyGyro-StdDev-X (Numeric)
+
+tBodyGyro-StdDev-Y (Numeric)
+
+tBodyGyro-StdDev-Z (Numeric)
+
+tBodyGyroJerk-AVG-X (Numeric)
+
+tBodyGyroJerk-AVG-Y (Numeric)
+
+tBodyGyroJerk-AVG-Z (Numeric)
+
+tBodyGyroJerk-StdDev-X (Numeric)
+
+tBodyGyroJerk-StdDev-Y (Numeric)
+
+tBodyGyroJerk-StdDev-Z (Numeric)
+
+tBodyAccMag-AVG (Numeric)
+
+tBodyAccMag-StdDev (Numeric)
+
+tGravityAccMag-AVG (Numeric)
+
+tGravityAccMag-StdDev (Numeric)
+
+tBodyAccJerkMag-AVG (Numeric)
+
+tBodyAccJerkMag-StdDev (Numeric)
+
+tBodyGyroMag-AVG (Numeric)
+
+tBodyGyroMag-StdDev (Numeric)
+
+tBodyGyroJerkMag-AVG (Numeric)
+
+tBodyGyroJerkMag-StdDev (Numeric)
+
+fBodyAcc-AVG-X (Numeric)
+
+fBodyAcc-AVG-Y (Numeric)
+
+fBodyAcc-AVG-Z (Numeric)
+
+fBodyAcc-StdDev-X (Numeric)
+
+fBodyAcc-StdDev-Y (Numeric)
+
+fBodyAcc-StdDev-Z (Numeric)
+
+fBodyAccJerk-AVG-X (Numeric)
+
+fBodyAccJerk-AVG-Y (Numeric)
+
+fBodyAccJerk-AVG-Z (Numeric)
+
+fBodyAccJerk-StdDev-X (Numeric)
+
+fBodyAccJerk-StdDev-Y (Numeric)
+
+fBodyAccJerk-StdDev-Z (Numeric)
+
+fBodyGyro-AVG-X (Numeric)
+
+fBodyGyro-AVG-Y (Numeric)
+
+fBodyGyro-AVG-Z (Numeric)
+
+fBodyGyro-StdDev-X (Numeric)
+
+fBodyGyro-StdDev-Y (Numeric)
+
+fBodyGyro-StdDev-Z (Numeric)
+
+fBodyAccMag-AVG (Numeric)
+
+fBodyAccMag-StdDev (Numeric)
+
+fBodyBodyAccJerkMag-AVG (Numeric)
+
+fBodyBodyAccJerkMag-StdDev (Numeric)
+
+fBodyBodyGyroMag-AVG (Numeric)
+
 fBodyBodyGyroMag-StdDev (Numeric),
 fBodyBodyGyroJerkMag-AVG (Numeric),
 fBodyBodyGyroJerkMag-StdDev (Numeric),
