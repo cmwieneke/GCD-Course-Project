@@ -38,6 +38,8 @@ all$V1.1[all$V1.1 == "6"] <- "LAYING"
 
 ##Appropriately Labels Variables with Descriptive Names
 
+vars$V2 <- gsub("mean()","AVG",vars$V2, fixed = TRUE)
+vars$V2 <- gsub("std()","StdDev",vars$V2, fixed = TRUE)
 
 for(i in 1:length(l)){
         names(all)[i+2] <- vars[i,2]
@@ -56,9 +58,11 @@ all <- as.data.table(all)
 x <- all[, lapply(.SD, mean), by = Activity]
 x$Subject <- ""
 y <- all[, lapply(.SD [3:68], mean), by = Subject]
-
+y$Activity <- ""
 
 final <- rbind(x,y)
+final <- as.data.table(final)
+setkey(final, Subject)
 
-write.table(final, "tidydataset.txt", na ="")
+write.csv(final, "tidydataset.txt", na ="")
 
