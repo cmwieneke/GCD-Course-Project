@@ -55,14 +55,11 @@ names(all)[2] <- "Activity"
 require(data.table)
 all <- as.data.table(all)
 
-x <- all[, lapply(.SD, mean), by = Activity]
-x$Subject <- ""
-y <- all[, lapply(.SD [3:68], mean), by = Subject]
-y$Activity <- ""
+x <- all[, lapply(.SD, mean), by = list(Activity, Subject)]
+x<- subset(x, select = c(2,1,3:68))
+final <- as.data.table(x)
+setkey(final, Subject, Activity)
 
-final <- rbind(x,y)
-final <- as.data.table(final)
-setkey(final, Subject)
 
 write.csv(final, "tidydataset.txt", na ="")
 
